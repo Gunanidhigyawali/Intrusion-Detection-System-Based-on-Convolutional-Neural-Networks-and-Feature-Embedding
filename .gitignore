@@ -1,0 +1,82 @@
+# =========================
+# Python basics
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# Data (ignore datasets)
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.parquet
+
+# =========================
+# Model weights
+# =========================
+# NOTE: .pth is NOT ignored
+*.pt
+*.ckpt
+*.onnx
+*.pb
+
+# =========================
+# Logs & experiments
+# =========================
+logs/
+*.log
+runs/
+wandb/
+mlruns/
+
+
+
+# =========================
+# Cache & temp
+# =========================
+.cache/
+tmp/
+temp/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build files
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Env variables
+# =========================
+.env.*
+!.env.example
+
+dataset/lfw_112x112
+dataset/lfw_ann.txt

@@ -1,0 +1,40 @@
+| Category             | Parameter            | Value                                   |
+| -------------------- | -------------------- | --------------------------------------- |
+| **Performance**      | Accuracy             | 98.82%                                  |
+|                      | Precision            | 98.25%                                  |
+|                      | Recall               | 99.40%                                  |
+|                      | F1 Score             | 98.82% (approx)                         |
+|                      | Best Threshold       | 0.30                                    |
+| **Confusion Matrix** | True Positives (TP)  | 2982                                    |
+|                      | False Positives (FP) | 53                                      |
+|                      | False Negatives (FN) | 18                                      |
+|                      | True Negatives (TN)  | 2947                                    |
+| **Inference**        | Avg Inference Time   | 6.43 ms per image                       |
+|                      | Throughput           | ~155 images/sec (FPS)                   |
+|                      | Total Inference Time | 77.21 sec                               |
+| **Model Info**       | Model Format         | ONNX                                    |
+|                      | Input Size           | 112 × 112 RGB                           |
+|                      | Output               | 512-D embedding                         |
+|                      | Similarity Metric    | Cosine Similarity                       |
+| **System Info**      | Operating System     | Windows 10 (10.0.26200)                 |
+|                      | CPU                  | Intel (10 cores / 16 threads @ 2.4 GHz) |
+|                      | RAM                  | 16 GB (2.71 GB available)               |
+|                      | GPU                  | NVIDIA RTX 5050 Laptop GPU              |
+|                      | GPU Memory           | 8 GB                                    |
+| Category             | Parameter            | Value              |
+| -------------------- | -------------------- | ------------------ |
+| **Performance**      | Accuracy             | 98.82%             |
+|                      | Best Threshold       | 0.30               |
+| **Confusion Matrix** | True Positives (TP)  | 2982               |
+|                      | False Positives (FP) | 53                 |
+|                      | False Negatives (FN) | 18                 |
+|                      | True Negatives (TN)  | 2947               |
+| **Inference**        | Avg Time per Image   | **3.55 ms**        |
+|                      | Throughput (FPS)     | **~281 FPS**       |
+|                      | Total Inference Time | **42.61 sec**      |
+| **Model Info**       | Model Format         | ONNX               |
+|                      | Input Size           | 112 × 112 RGB      |
+|                      | Output               | 512-D embedding    |
+|                      | Similarity Metric    | Cosine Similarity  |
+| **Hardware**         | Device               | GPU (CUDA-enabled) |
+|                      | Environment          | Google GPU Runtime |
